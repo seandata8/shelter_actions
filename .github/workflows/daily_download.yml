@@ -2,8 +2,9 @@ name: Daily shelter occupancy download
 
 on:
   # Run every day at 11:00 UTC (7am Toronto)
+  # changed to 12:08 (8:08 am Toronto)
   schedule:
-    - cron: '50 14 * * *'
+    - cron: '8 12 * * *'
   # Allow manual triggering from the Actions tab
   workflow_dispatch:
 
